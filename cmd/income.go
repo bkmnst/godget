@@ -13,7 +13,7 @@ import (
 // incomeCmd represents the income command
 var incomeCmd = &cobra.Command{
 	Use:   "income",
-	Short: "Add income amount.",
+	Short: "Add income amount",
 	Long:  `Add income to your transaction history.`,
 	Args:  cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
